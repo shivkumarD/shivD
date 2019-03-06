@@ -1,0 +1,42 @@
+<!DOCTYPE.html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Discount Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js"></script>
+</head>
+<nav>
+	<p>Name: ShivKumar Dhawan<br>
+	Student Id: c0730508</p>
+	<br>
+<body>
+<form name="myForm">
+	<center>
+	<table>
+        <h1>Discount Calculator</h1>
+        
+        <tr><td><label for="Item Price">Item Price:</label></td>
+    	<td><input type="text" id="price"></td></tr>
+
+        <tr><td><label for="discount">Discount %:</label></td>
+        <td><input type="text" id="discount%"></td></tr>
+        
+        <tr><td><label for="years">Discount $:</label></td>
+        <td><input type="text" id="discount$" disabled></td></tr>
+     
+        <tr><td><label for="future_value">Net Price:</label></td>
+        <td><input type="text" id="netprice" disabled></td></tr>
+        
+        <label>&nbsp;</label>
+        <tr><td><input type="button" id="calculate"
+               value="Calculate">
+	
+		<button onClick="clear()">Clear</button></td></tr>
+	
+	</table>
+	</center>
+</form>
+</nav>
+</body>
+</html>
